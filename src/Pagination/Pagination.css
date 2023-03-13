@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001219;
+    padding-top: 30px;
+}
+.root li {
+    display: inline-block;
+}
+.wrapper ul {
+    border: none;
+}
+.wrapper li {
+    border: none;
+}
+.root li a {
+    text-align: center;
+    width: 45px;
+    line-height: 42px;
+    height: 45px;
+    border: 1px solid #3e5bfd;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    color: #3e5bfd;
+}
+.root li a:hover {
+    background-color: #3e5bfd;
+    color: #fff;
+}
+.root  .selected a {
+    background-color: #3e5bfd;
+    color: #fff;
+}
