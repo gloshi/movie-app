@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react'
 import { BsSearch } from 'react-icons/bs';
 import { Routes, Route, Link } from 'react-router-dom';
 import Movies from './Movies'
-import TvShows from './TvShows'
+import Premiers from './TvShows'
 import Favorites from './Favorite'
 import Pricing from './Pricing'
 
@@ -45,7 +45,7 @@ function NavBar() {
         </nav> 
         <Routes>
           <Route path='' element={<Movies />} />
-          <Route path='Premiers' element={<TvShows />} />
+          <Route path='Premiers' element={<Premiers />} />
           <Route path='Favorites' element={<Favorites />} />
           <Route path='Pricing' element={<Pricing />} />
         </Routes>
